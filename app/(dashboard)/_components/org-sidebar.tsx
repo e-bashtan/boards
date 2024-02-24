@@ -50,6 +50,7 @@ export const OrgSidebar = () => {
                             organizationSwitcherTrigger: {
                                 padding: "6px",
                                 width: "100%",
+                                borderRadius: "6px",
                                 border: "1px solid #E5E7EB",
                                 justifyContent: "space-between",
                                 backgroundColor: "white"
