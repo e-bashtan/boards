@@ -1,0 +1,14 @@
+[Unit]
+Description=My Project
+After=syslog.target network.target
+
+[Service]
+Environment=NODE_PORT=3000
+Type=simple
+User=root
+Restart=on-failure
+WorkingDirectory=/var/bash-apps/miro-next/
+ExecStart=npm run start
+
+[Install]
+WantedBy=multi-user.target
